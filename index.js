@@ -22,6 +22,8 @@ console.log(university);
 let citizen = "dan berasal dari Medan"
 console.log(citizen);
 
+console.log("Exercise Variable Berhasil!");
+
 /**
  * Exercise Function
  * Objective:
@@ -36,13 +38,15 @@ Gunakan sintaks fungsi dasar untuk mendefinisikan fungsi.
  */
 
 function greet (name, type = "animal") {
-    // penggunaan string literal atau ' ketika ingin menggunakan variabel/parameter harus dengan${}
+   
    return `hello, ${name}. My type is ${type} yo`;
 }
 
-const greeting = greet("kuda", "animal"); // => jika function memiliki keywords return didalamnya bisa menggunakan variable
+const greeting = greet("kuda", "animal"); 
 
 console.log(greeting);
+
+console.log("Exercise Function Berhasil!");
 
 /**
  * Exercise Loop
@@ -59,6 +63,8 @@ const teman = ["nana", "nina", "nuna","nena","nona"];
 for (let i = 0; i < teman.length; i ++) {
     console.log(teman[i]);
 }
+
+console.log("Exercise Loop Berhasil!");
 
 /**
  * Exercise Class
@@ -87,6 +93,8 @@ class Mahasiswa {
 const mahasiswa = new Mahasiswa("Reyhan Capri Moraga", "Teknik Informatika");
 console.log(mahasiswa.information());
 
+console.log("Exercise Class Berhasil!");
+
 /**
  * Exercise Bonus
  * Description:
@@ -110,7 +118,7 @@ class Perpustakaan {
             return;
         }
         for (const book of this.books) {
-            console.log(${book});
+            console.log(`- ${book}`);
         }
     }
 }
@@ -120,3 +128,5 @@ perpustakaan.addBook('Pemrograman JavaScript');
 perpustakaan.addBook('Algoritma dan Struktur Data');
 
 perpustakaan.showBooks();
+
+console.log("Exercise Bonus Berhasil!");
