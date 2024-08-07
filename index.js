@@ -106,7 +106,7 @@ Tambahkan metode showBook yang menggunakan loop untuk mencetak setiap judul buku
 
 class Perpustakaan {
     constructor() {
-        this.books = [];
+        this.books = ["buku sehat", "buku tidak sehat"];
     }
 
     addBook(judulbuku) {
@@ -124,8 +124,8 @@ class Perpustakaan {
 }
 
 const perpustakaan = new Perpustakaan();
-perpustakaan.addBook('Pemrograman JavaScript');
-perpustakaan.addBook('Algoritma dan Struktur Data');
+perpustakaan.addBook('Belajar NodeJS hingga kiamat');
+perpustakaan.addBook('The Xerox Thieves: Steve Jobs & Bill Gates');
 
 perpustakaan.showBooks();
 
