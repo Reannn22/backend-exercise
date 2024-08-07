@@ -1,0 +1,19 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Reyhan Capri Moraga",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reannn22/backend-exercise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Reannn22/backend-exercise/issues"
+  },
+  "homepage": "https://github.com/Reannn22/backend-exercise#readme",
+  "description": ""
+}
